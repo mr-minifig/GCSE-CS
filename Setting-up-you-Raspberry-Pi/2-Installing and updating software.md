@@ -8,11 +8,16 @@ Open up an LXTerminal Window
 [!alt text](http://images.jeremymorgan.com/raspberry-pi-linux-2.png "LXterminal")
 
 Type the following command and press enter:
-'sudo apt-get update'
+```bash
+sudo apt-get update
+```
 This connects to the internet and checks if any software updates are available.
 
 Next enter:
-'sudo apt-get upgrade'
+```bash
+sudo apt-get upgrade
+```
+
 Which will install any available updates for software you have installed
 
 The process may take some time depending on when the Pi was last updated. You should run this command regularly to ensure your Pi is kept up to date.
@@ -20,7 +25,11 @@ The process may take some time depending on when the Pi was last updated. You sh
 ##Installing new software.
 With an LXTerminal window open you can install new software quite easily.
 We need to install a piece of software called **git** to do so we run:
-'sudo apt-get install git'
+```bash
+sudo apt-get install git
+```
 
 We can also install several pieces at once, try:
-'sudo apt-get install tightvncserver avahi'
+```
+sudo apt-get install tightvncserver avahi
+```
