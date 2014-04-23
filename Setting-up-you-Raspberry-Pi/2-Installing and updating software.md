@@ -5,7 +5,7 @@ One of the first things we need to do is learn how to keep the software on it up
 
 ##Updating Software
 Open up an LXTerminal Window 
-[!alt text](http://images.jeremymorgan.com/raspberry-pi-linux-2.png "LXterminal")
+[!alt-text](http://images.jeremymorgan.com/raspberry-pi-linux-2.png "LXterminal")
 
 Type the following command and press enter:
 ```bash
